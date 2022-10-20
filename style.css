@@ -1,0 +1,162 @@
+/* dekko-regular - latin */
+@font-face {
+    font-family: 'Dekko';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('./fonts/dekko-v19-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/dekko-v19-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+/* roboto-300 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('./fonts/roboto-v30-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/roboto-v30-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-regular - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('./fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/roboto-v30-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-500 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('./fonts/roboto-v30-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/roboto-v30-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-700 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('./fonts/roboto-v30-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/roboto-v30-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-900 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('./fonts/roboto-v30-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/roboto-v30-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* kalam-300 - latin */
+@font-face {
+    font-family: 'Kalam';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('./fonts/kalam-v16-latin/kalam-v16-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/kalam-v16-latin/kalam-v16-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* kalam-regular - latin */
+  @font-face {
+    font-family: 'Kalam-Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('./fonts/kalam-v16-latin/kalam-v16-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/kalam-v16-latin/kalam-v16-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* kalam-700 - latin */
+  @font-face {
+    font-family: 'Kalam-700';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('./fonts/kalam-v16-latin/kalam-v16-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/kalam-v16-latin/kalam-v16-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* patrick-hand-sc-regular - latin */
+    @font-face {
+    font-family: 'Patrick Hand';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('./fonts/patrick-hand-sc-v13-latin/patrick-hand-sc-v13-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('./fonts/patrick-hand-sc-v13-latin/patrick-hand-sc-v13-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+body {
+    font-family: 'Patrick Hand';
+    background-color:  rgb(255, 248, 224);
+}
+
+.navbar {
+    background-color: rgb(150, 104, 157);
+}
+
+.navbar-brand {
+    font-size: 1.6rem;
+    padding-left: 0.6rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.display-1 {
+    color: rgb(98, 58, 104);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Patrick Hand';
+}
+
+h2,
+h3,
+h4 {
+    color: rgb(98, 58, 104);
+}
+
+p,
+ul,
+ol {
+    color: rgb(44, 44, 44);
+}
+
+#home {
+    height: calc(100vh - 56px);
+}
+
+#about,
+#personas {
+    background-color: rgb(255, 251, 240);
+}
+
+.profile {
+    border: 0.2rem solid white;
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+}
+
+.empathy-map {
+    width: 70%;
+    /* width: 30rem;
+    height: 30rem; */
+    object-fit: cover;
+}
+
+#storyboard-drawing {
+    width: 80%;
+    object-fit: cover;
+}
