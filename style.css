@@ -141,11 +141,12 @@ body {
 
 .nav-link {
     font-size: 1rem;
-    color: rgb(104, 104, 104);
+    color: rgb(112, 87, 117);
 }
 
 .page-title {
-    font-size: calc(1.5rem + 1.5vw)
+    font-size: calc(1.5rem + 1.5vw);
+    color: rgb(112, 87, 117);
 }
 
 h1 {
@@ -193,20 +194,36 @@ ol {
     height: calc(100vh - 98px);
 }
 
-.empathy-map {
-    width: 70%;
-    /* width: 30rem;
-    height: 30rem; */
-    object-fit: cover;
+#page-btn,
+#final-btn {
+    background-color: #c1a4de;
+    box-shadow: 5px 6px #9a9a9a;
+    border: none;
+    border-radius: 15px;
+    height: 4rem;
+    width: 10rem;
+    color: rgb(255, 250, 250);
 }
 
-#storyboard-drawing {
-    width: 80%;
-    object-fit: cover;
+#page-btn:hover,
+#final-btn:hover {
+    box-shadow: 1px 1px #9a9a9a;
+    transform: translateY(4px);
 }
+
+#final-btn {
+    height: 4rem;
+    width: 13rem;
+}
+
 
 .footer-content {
     text-align: center;
+}
+
+.memo {
+    font-size: 0.9rem;
+    color: rgb(105, 105, 105);
 }
 
 .section-emoji:hover, .navbar-brand:hover {
@@ -215,6 +232,14 @@ ol {
     animation-iteration-count: 1; 
     transform-origin: 50% 50%;       /* Pivot around the center */
     display: inline-block;
+}
+
+#lofi-laptop {
+    padding-left: 5.5%;
+}
+
+#lofi-iphone {
+    padding-right: 3%;
 }
 
 /* Adapted from https://jarv.is/notes/css-waving-hand-emoji/ */

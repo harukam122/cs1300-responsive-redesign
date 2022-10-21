@@ -12,13 +12,15 @@
 
 <nav class="navbar sticky-top navbar-expand-sm navbar-light pt-0">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">&#129391;</a>
+        <a class="navbar-brand" href="#">&#128147;</a>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav ms-auto">
                 <li class="navbar-item"><a href="#about" class="nav-link">About</a></li>
                 <li class="navbar-item"><a href="#webpage" class="nav-link">Webpage</a></li>
                 <li class="navbar-item"><a href="#issues" class="nav-link">Issues</a></li>
-                <li class="navbar-item"><a href="#prototypes" class="nav-link">Prototypes</a></li>
+                <li class="navbar-item"><a href="#lofi" class="nav-link">Lo-Fi</a></li>
+                <li class="navbar-item"><a href="#hifi" class="nav-link">Hi-Fi</a></li>
+                <!-- <li class="navbar-item"><a href="#prototypes" class="nav-link">Prototypes</a></li> -->
                 <li class="navbar-item"><a href="#product" class="nav-link">Product</a></li>
             </ul>
         </div>
@@ -46,38 +48,14 @@
     <div id="webpage" class="section container-fluid text-center p-5 align-items-center">
         <h1 class="section-emoji">&#128187;</h1>
         <h2><b>Web Page</b></h2>
-        <!-- <div id="carouselExampleIndicators" class="carousel slide col-7" data-ride="carousel">
-            <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="images/bgc-menu1.png" alt="First slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="images/bgc-menu2.png" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="images/bgc-menu3.png" alt="Third slide">
-            </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-            </a>
-        </div> -->
+        <br>
         <img id="webpage-img" class="mb-5 col-7 mx-4" src="images/bgc-website.gif" alt="bagel gourmet café menu gif">
         <h3>Bagel Gourmet Café &#10145;&#65039; Menu</h3>
-        <div class="d-inline-block text-start mx-5">
-            <h4>Why?</h4>
-            <p>I chose this website because the design’s barely responsive for smaller screen sizes, and defies much of a user’s conceptual model when navigating the website.</p>
+        <div class="d-inline-block text-start mx-5 mb-5">
+            <h4>&#129300; Why?</h4>
+            <p>I chose this website and its Menu page because the design is barely responsive for smaller screen sizes, and defies much of a user’s mental model when they navigate the website.</p>
         </div>
+        <a id="page-btn" class="btn btn-primary" href="http://bagelgourmetcafe.com/menu.html" target="_blank" role="button">Take Me to the Page &#10145;&#65039;</a>
     </div>
 
     <div id="issues" class="section container-fluid text-center p-5">
@@ -85,56 +63,85 @@
         <h2><b>Key Issues</b></h2>
         <br>
         <div class="d-inline-block text-start mx-5">
-            <h4>Responsiveness</h4>
+            <h4>&#128077; Responsiveness</h4>
             <img id="webpage-img" class="align-center col-7 m-4" src="images/bgc-resp.gif" alt="bagel gourmet café responsiveness gif">
             <ul>
-                <li>When the screen shrinks, the page simply gets cut off horizontally, so that you have to scroll to the end. On a phone, the page display simply shrinks, making the lettering too small to read.</li>
+                <li>When the screen shrinks, the page simply gets cut off horizontally, so that you have to scroll to the end. On smaller devices, the page display simply shrinks, making the lettering too small to read</li>
             </ul>
             <br>
-            <h4>Conceptual Model</h4>
+            <h4 class="mt-3">&#129504; Conceptual vs Mental Model</h4>
+            <br>
             <ul>
-                <li>Some style choices make certain texts seem like links while they aren’t, and the navigation buttons change location based on the page a user is on. (My conceptual model expects it to stay in one location)</li>
-                <li>Clicking on the logo does not take the user back to home page, which is now a part of most conceptual models of modern websites. </li>
+                <li>Some style choices like underlining make certain texts seem like links while they aren’t</li>
+                <li>Navigation buttons change location based on the page a user is on. The user's mental model will likely expect it to stay in one location.</li>
+                <li>Clicking on the logo does not take the user back to home page, which is now a part of most mental models of modern websites</li>
+
             </ul>
             <br>
-            <h4>Visual Design</h4>
+            <h4 class="mt-3">&#127912; Visual Design & Usability</h4>
+            <br>
             <ul>
-                <li>Bottom buttons blend in with the background, and so does the link randomly placed at the top left corner.</li>
-                <li>Layout of prices are offset, and so are very hard to read.</li>
-                <li>Hard to tell which options belong to what headers, since the only distinctions are underlined vs. non-underlined (some times italics?)</li>
-                <li>All contents are shifted to the left, with very tight columns and small text. The margins are missing in some text displays, and the color scheme offers little contrast.</li>
+                <li>Bottom buttons blend in with the background, and so does the link randomly placed at the top left corner</li>
+                <li>Layout of prices are offset with varying styles––some bolded, some not &#10145;&#65039; very hard to read or compare prices</li>
+                <li>Hard to tell which options belong to what headers, since the only distinctions are underlined vs. non-underlined (sometimes italics and/or bolded)😵‍💫</li>
+                <li>The difference in font styles––sometimes serif, other times sans serif––of the same information type (i.e. availanble flavors/toppings) may leave the user confused what the difference could be</li>
+                <li>Despite all the available space on the right, all contents are shifted to the left with very tight columns and small text. The margins are also missing in some text displays.</li>
+                <li>The color scheme in some places offers little contrast, making elements like the links at the bottom very difficult to read</li>
             </ul>
             <br>
-            <h4>Accessibility</h4>
+            <h4 class="mt-3">&#128155; Accessibility</h4>
+            <br>
             <ul>
-                <li>There is no alt text for the images, so screen readers cannot read them.</li>
-                <li>Only uses h4 and h5 elements, and no h1 is found.</li>
+                <li>There is no alt text for the images, so screen readers cannot read them</li>
+                <li>Only uses h4 and h5 elements, and no h1 is found &#10145;&#65039; not enough hierarchy</li>
                 <li>Language is never identified</li>
-                <li>Poor color contrast.</li>
-                <li>There are empty headings.</li>
-                <li>Missing or uninformative page title.</li>
-                <li>No page regions are identified.</li>
-                <li>Non-link texts are underlined.</li>
-                <li>Texts overall are very small.</li>
-                <li>Layout tables are present: can cause reading/navigation order issues.</li>
+                <li>Poor color contrast</li>
+                <li>There are empty headings, which can confuse screen readers</li>
+                <li>Missing or uninformative page title</li>
+                <li>No page regions are identified</li>
+                <li>Non-link texts are underlined</li>
+                <li>Texts overall are very small</li>
+                <li>Layout tables are present: can cause reading/navigation order issues</li>
             </ul>
+            <p>I thought these accessibility alerts and findings were accurate. In total, I found there to be 6 Errors, 13 Contrast Errors,
+                 149 Alerts, 52 null/empty alternative text, and 0 ARIA. Overall, this website was not nearly accessible as we would like it to be.</p>
         </div>
     </div>
 
-    <div id="prototypes" class="section container-fluid text-center p-5">
-        <h2><b>Prototypes</b></h2>
+    <div id="lofi" class="section container-fluid text-center p-5">
+        <h1 class="section-emoji">&#128221;</h1>
+        <h2><b>Lo-Fi Prototypes</b></h2>
+        <br>
+        <!-- <h4>Lo-Fi Prototypes</h4> -->
+        <img id="lofi-laptop" class="align-center col-12" src="images/lofi-laptop.png" alt="laptop lofi prototype">
+        <img id="lofi-ipad" class="align-center col-12" src="images/lofi-ipad.png" alt="ipad lofi prototype">
+        <img id="lofi-iphone" class="align-center col-11" src="images/lofi-iphone.png" alt="iphone lofi prototype">
     </div>
 
-    <div id="product" class="section container-fluid text-center p-5">
+    <div id="hifi" class="section container-fluid text-center p-5">
+        <h1 class="section-emoji">&#10024;</h1>
+        <h2><b>Hi-Fi Prototypes</b></h2>
+        <br>
+        <img id="style-guide" class="align-center col-6 my-3" src="images/style-guide.png" alt="ui style guide">
+        <img id="hifi-laptop" class="align-center col-8" src="images/hifi-laptop.png" alt="laptop hifi prototype">
+        <img id="hifi-ipad" class="align-center col-12" src="images/hifi-ipad.png" alt="ipad hifi prototype">
+        <img id="hifi-iphone" class="align-center col-11" src="images/hifi-iphone.png" alt="iphone hifi prototype">
+    </div>
+
+    <div id="product" class="section container-fluid text-center p-5 align-items-center justify-content-center">
+        <h1 class="section-emoji">&#128173;</h1>
         <h2><b>Final Product</b></h2>
-        <div class="d-inline-block text-start mx-5">
-            
+        <br>
+        <div>
+            <img id="final-product-img" class="mb-5 col-7 mx-4" src="images/final-product.gif" alt="final redesigned website gif">
         </div>
+        <a id="final-btn" class="btn btn-primary" href="http://bagelgourmetcafe.com/menu.html" target="_blank" role="button">Take Me to the New & Improved Page! &#10145;&#65039;</a>
     </div>
 </main>
 
 <footer class="text-center py-3">
     <p class="mb-0 footer-content">made with <font color="hotpink">&hearts;</font> by happy quokka</p>
+    <p class="mb-0 footer-content memo">and if you haven't already, try hovering over the big emojis!</p>
 </footer>
 
 </body>
