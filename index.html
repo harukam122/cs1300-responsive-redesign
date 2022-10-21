@@ -10,196 +10,131 @@
 </head>
 <body>
 
-<nav class="navbar sticky-top navbar-expand-sm navbar-dark">
+<nav class="navbar sticky-top navbar-expand-sm navbar-light pt-0">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">Responsive Redesign</a>
+        <a class="navbar-brand" href="#">&#129391;</a>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav ms-auto">
                 <li class="navbar-item"><a href="#about" class="nav-link">About</a></li>
                 <li class="navbar-item"><a href="#webpage" class="nav-link">Webpage</a></li>
-                <li class="navbar-item"><a href="#research" class="nav-link">Issues</a></li>
-                <li class="navbar-item"><a href="#personas" class="nav-link">Personas</a></li>
-                <li class="navbar-item"><a href="#storyboard" class="nav-link">Storyboard</a></li>
-                <li class="navbar-item"><a href="#takeaways" class="nav-link">Takeaways</a></li>
+                <li class="navbar-item"><a href="#issues" class="nav-link">Issues</a></li>
+                <li class="navbar-item"><a href="#prototypes" class="nav-link">Prototypes</a></li>
+                <li class="navbar-item"><a href="#product" class="nav-link">Product</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
-<div id="home" class="d-flex flex-column align-items-center justify-content-center p-5">
-    <img src="images/bagel-icon.png" alt="sun icon" style="width: 10rem; height: 10rem;">
-    <h1 class="display-1">Responsive Redesign</h1>
-    <h4>Read on to learn about my project!</h4>
-</div>
-
-<div id="about" class="container-fluid text-center p-5">
-    <img class="m-5" src="images/about.png" alt="question mark icon">
-    <h2><b>About</b></h2>
-    <p class="lead">
-        The goal of this assignment was to understand, empathize with, and tell the story 
-        of users of a particular interface. 
-        <br>
-        To achieve this, I observed and interviewed 
-        users of the Coca Cola drink dispenser placed in the Ratty. 
-        <br>
-        Based on the findings, I generated two different personas to best represent the 
-        users, and a storyboard to tell one of the personas' story.
-        <br>
-        Scroll down to read about more details and my findings of the assignment!
-    </p>
-</div>
-
-<div id="webpage" class="container-fluid bg-white text-center p-5 align-items-center">
-    <h2 class="mb-5"><b>Web Page</b></h2>
-    <!-- <div id="carouselExampleIndicators" class="carousel slide col-7" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="images/bgc-menu1.png" alt="First slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="images/bgc-menu2.png" alt="Second slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="images/bgc-menu3.png" alt="Third slide">
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-    </div> -->
-    <img id="webpage-img" class="mb-5 col-11 col-md-5 mx-4" src="images/bgc-menu1.png" alt="bagel gourmet café menu page 1">
-    <img id="webpage-img" class="mb-5 col-11 col-md-5 mx-4" src="images/bgc-menu3.png" alt="bagel gourmet café menu page 2">
-    <h4><b>Bagel Gourmet Café: Menu Page</b></h4>
-    <div class="d-inline-block text-start mx-5 lead">
-        <h4>Why?</h4>
-        <p>I chose this website because the design’s barely responsive for smaller screen sizes, and defies much of a user’s conceptual model when navigating the website.</p>
+<main class="mx-sm-0 mx-lg-5 px-4 pb-24">
+    <div id="home" class="d-flex flex-column align-items-center justify-content-center p-5">
+        <h1 class="page-title font-bold mt-2">&#129391; Responsive Redesign &#129391;</h1>
+        <h4>read on to learn about my project!</h4>
     </div>
-</div>
 
-<div id="issues" class="container-fluid text-center p-5">
-    <h2><b>Key Issues</b></h2>
-    <p class="lead">To first find out how users of the drink dispenser interact with the interface, I observed and interviewed four different users at the Ratty.</p>
-    <br>
-    <div class="d-inline-block text-start mx-5 lead">
-        <h4>Responsiveness</h4>
-        <ul>
-            <li>When the screen shrinks, the page simply gets cut off horizontally, so that you have to scroll to the end. On a phone, the page display simply shrinks, so the lettering is too small to read.</li>
-        </ul>
-        <br>
-        <h4>Conceptual Model</h4>
-        <ul>
-            <li>Some style choices make certain texts seem like links while they aren’t, and the navigation buttons change location based on the page a user is on. (My conceptual model expects it to stay in one location)</li>
-            <li>Clicking on the logo does not take the user back to home page, which is now a part of most conceptual models of modern websites. </li>
-        </ul>
-        <br>
-        <h4>Visual Design</h4>
-        <ul>
-            <li>Bottom buttons blend in with the background, and so does the link randomly placed at the top left corner.</li>
-            <li>Layout of prices are offset, and so are very hard to read.</li>
-            <li>Hard to tell which options belong to what headers, since the only distinctions are underlined vs. non-underlined (some times italics?)</li>
-            <li>All contents are shifted to the left, with very tight columns and small text. The margins are missing in some text displays, and the color scheme offers little contrast.</li>
-        </ul>
-        <br>
-        <h4>Accessibility</h4>
-        <ul>
-            <li>There is no alt text for the images, so screen readers cannot read them.</li>
-            <li>Only uses h4 and h5 elements, and no h1 is found.</li>
-            <li>Language is never identified</li>
-            <li>Poor color contrast.</li>
-            <li>There are empty headings.</li>
-            <li>Missing or uninformative page title.</li>
-            <li>No page regions are identified.</li>
-            <li>Non-link texts are underlined.</li>
-            <li>Texts overall are very small.</li>
-            <li>Layout tables are present: can cause reading/navigation order issues.</li>
-        </ul>
-    </div>
-</div>
-
-<div id="personas" class="py-5">
-    <h2 class="text-center"><b>Personas</b></h2>
-    <div class="container text-center">
-        <hr class="mb-5">
-        <p class="lead">Next, I created two different personas to represent the archetypes of the interviewed and observed users.</p>
-        <br>
-        <div class="row text-center justify-content-around">
-            <div class="col-12 col-md-6 px-3">
-                <img class="profile mb-3" src="images/user-1.jpg" alt="persona icon">
-                <h5>Sofia Randi</h5>
-                <div class="d-inline-block text-start lead">
-                    <p>Sofia...
-                        <ul>
-                            <li>is a Junior at Brown studying computer science</li>
-                            <li>is often busy and doesn't spend long periods of time on meals</li>
-                            <li>likes to be healthy and limits her sugar-intake, and generally avoids sugary drinks</li>
-                            <li>generally likes having a routine lifestyle and does not like to be out of her comfort zone</li>
-                        </ul>
-                    </p>
-                    <br>
-                    <p>Sofia's Empathy Map</p>
-                </div>
-                <img class="empathy-map" src="images/empathy-map-1.jpg" alt="empathy map (persona 1)">
-            </div>
-            <div class="col-12 col-md-6 px-3">
-                <img class="profile mb-3" src="images/user-2.jpg" alt="persona icon">
-                <h5>Parker Koche</h5>
-                <div class="d-inline-block text-start lead">
-                    <p>Parker...
-                        <ul>
-                            <li>is a Freshman at Brown who is undecided and loves to explore</li>
-                            <li>loves exploring courses in different departments, restaurants in Providence, and new drinks!</li>
-                            <li>likes to take time at their meals and enjoy conversations with friends</li>
-                            <li>is usually fickle, and their mind is easily changed</li>
-                        </ul>
-                    </p>
-                    <br>
-                    <p>Parker's Empathy Map</p>
-                </div>
-                <img class="empathy-map" src="images/empathy-map-2.jpg" alt="empathy map (persona 2)">
-            </div>
-        </div>
-    </div>
-</div>
-
-<div id="storyboard" class="container-fluid bg-white text-center p-5">
-    <h2><b>Storyboard</b></h2>
-    <hr class="mb-5">
-    <p class="lead">Lastly, below is a storyboard portraying what Parker's usage of the Coca Cola drink dispenser might look like :)</p>
-    <img id="storyboard-drawing" src="images/storyboard.png" alt="storyboard drawing">
-</div>
-
-<div id="takeaways" class="container-fluid text-center p-5">
-    <h2><b>Takeaways</b></h2>
-    <hr class="mb-5">
-    <div class="d-inline-block text-start mx-5 lead">
-        <p>
-            Some of the key takeaways and findings of this assignment were...
-            <ul>
-                <li>The users of the drink dispenser are generally divided into two groups:
-                    <ol>
-                        <li>users who appreciate the various, colorful flavors offered, and are willing to explore different flavors</li>
-                        <li>users who simply want to hydrate and are not willing to spend time exploring other options</li>
-                    </ol>
-                </li>
-                <li>Although the first group of users may greatly benefit from the Exclusive Flavors page and the various filters offered, majority of users do not notice their existence.</li>
-                <li>Many users are repeat users, and are by now accustomed to the flow of the interface. Regardless, all interviewed users found the interface to be intuitive.</li>
-            </ul>
+    <div id="about" class="section container-fluid text-center p-5">
+        <h1 class="section-emoji">&#128269;</h1>
+        <h2><b>About</b></h2>
+        <p class="d-inline-block mx-lg-5">
+            In this project, I found a website to be improved, identified the key usability and 
+            accessibility issues, created lo-fi and hi-fi prototypes, and developed a 
+            responsive version of the website. Scroll down &#11015;&#65039; to read about more my process and the final product!
         </p>
     </div>
-</div>
 
-<footer class="bg-white text-center py-3">
-    <p class="mb-0">made with <font color="hotpink">&hearts;</font> in Providence</p>
+
+
+    <div id="webpage" class="section container-fluid text-center p-5 align-items-center">
+        <h1 class="section-emoji">&#128187;</h1>
+        <h2><b>Web Page</b></h2>
+        <!-- <div id="carouselExampleIndicators" class="carousel slide col-7" data-ride="carousel">
+            <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="images/bgc-menu1.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/bgc-menu2.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="images/bgc-menu3.png" alt="Third slide">
+            </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+        </div> -->
+        <img id="webpage-img" class="mb-5 col-7 mx-4" src="images/bgc-website.gif" alt="bagel gourmet café menu gif">
+        <h3>Bagel Gourmet Café &#10145;&#65039; Menu</h3>
+        <div class="d-inline-block text-start mx-5">
+            <h4>Why?</h4>
+            <p>I chose this website because the design’s barely responsive for smaller screen sizes, and defies much of a user’s conceptual model when navigating the website.</p>
+        </div>
+    </div>
+
+    <div id="issues" class="section container-fluid text-center p-5">
+        <h1 class="section-emoji">&#128477;&#65039;</h1>
+        <h2><b>Key Issues</b></h2>
+        <br>
+        <div class="d-inline-block text-start mx-5">
+            <h4>Responsiveness</h4>
+            <img id="webpage-img" class="align-center col-7 m-4" src="images/bgc-resp.gif" alt="bagel gourmet café responsiveness gif">
+            <ul>
+                <li>When the screen shrinks, the page simply gets cut off horizontally, so that you have to scroll to the end. On a phone, the page display simply shrinks, making the lettering too small to read.</li>
+            </ul>
+            <br>
+            <h4>Conceptual Model</h4>
+            <ul>
+                <li>Some style choices make certain texts seem like links while they aren’t, and the navigation buttons change location based on the page a user is on. (My conceptual model expects it to stay in one location)</li>
+                <li>Clicking on the logo does not take the user back to home page, which is now a part of most conceptual models of modern websites. </li>
+            </ul>
+            <br>
+            <h4>Visual Design</h4>
+            <ul>
+                <li>Bottom buttons blend in with the background, and so does the link randomly placed at the top left corner.</li>
+                <li>Layout of prices are offset, and so are very hard to read.</li>
+                <li>Hard to tell which options belong to what headers, since the only distinctions are underlined vs. non-underlined (some times italics?)</li>
+                <li>All contents are shifted to the left, with very tight columns and small text. The margins are missing in some text displays, and the color scheme offers little contrast.</li>
+            </ul>
+            <br>
+            <h4>Accessibility</h4>
+            <ul>
+                <li>There is no alt text for the images, so screen readers cannot read them.</li>
+                <li>Only uses h4 and h5 elements, and no h1 is found.</li>
+                <li>Language is never identified</li>
+                <li>Poor color contrast.</li>
+                <li>There are empty headings.</li>
+                <li>Missing or uninformative page title.</li>
+                <li>No page regions are identified.</li>
+                <li>Non-link texts are underlined.</li>
+                <li>Texts overall are very small.</li>
+                <li>Layout tables are present: can cause reading/navigation order issues.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="prototypes" class="section container-fluid text-center p-5">
+        <h2><b>Prototypes</b></h2>
+    </div>
+
+    <div id="product" class="section container-fluid text-center p-5">
+        <h2><b>Final Product</b></h2>
+        <div class="d-inline-block text-start mx-5">
+            
+        </div>
+    </div>
+</main>
+
+<footer class="text-center py-3">
+    <p class="mb-0 footer-content">made with <font color="hotpink">&hearts;</font> by happy quokka</p>
 </footer>
 
 </body>
